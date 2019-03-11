@@ -62,7 +62,7 @@ public class FlatRegistrationDAOImpl implements IFlatRegistrationDAO{
 
 	public ArrayList<Integer> getAllOwnerIds() {
 		ArrayList<Integer> arrayList=new ArrayList<Integer>();
-		int x=0;
+		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bindu", "root", "root");
